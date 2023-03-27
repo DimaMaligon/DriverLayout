@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view"
+    >
+    <item
+        android:id="@+id/cloudActive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Cloud Active">
+        <menu>
+            <item
+                android:id="@+id/cloudDownload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:icon="@drawable/cloud_download_24"
+                android:title="Cloud Download" />
+            <item
+                android:id="@+id/cloudDone"
+                android:icon="@drawable/cloud_done_24"
+                android:title="Cloud Done" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/cloudeInactive"
+        android:title="Cloud Inactive">
+        <menu>
+            <item
+                android:id="@+id/closeOff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:icon="@drawable/cloud_off_24"
+                android:title="Cloud off" />
+            <item
+                android:id="@+id/cloudWait"
+                android:icon="@drawable/cloud_queue_24"
+                android:title="Cloud Wait" />
+        </menu>
+    </item>
+</menu>
